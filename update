@@ -1,22 +1,16 @@
 #!/bin/bash
 
-# Создание необходимых папок
 mkdir -p /sdcard/AUTO-TOOL.V3/CONFIG
 mkdir -p /sdcard/AUTO-TOOL.V3/output/SKIN
 mkdir -p /sdcard/AUTO-TOOL.V3/PAK
 mkdir -p /sdcard/AUTO-TOOL.V3/REPACK
 
-# Создание файла ID.txt
 touch /sdcard/AUTO-TOOL.V3/ID.txt
 
-# Переход в домашнюю директорию
 cd ~ || exit
 
-# Клонирование репозитория
 git clone https://github.com/ТВОЙ_РЕПОЗИТОРИЙ/AUTO-TOOL.git
 
-# Переименование папки
 mv AUTO-TOOL+ AUTO-TOOL.V3
 
-# Сделать все файлы исполняемыми
 chmod +x AUTO-TOOL.V3/*
