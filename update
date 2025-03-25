@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -rf ~/AUTO-TOOL.V3
+rm -rf /sdcard/AUTO-TOOL.V3
 
 mkdir -p /sdcard/AUTO-TOOL.V3/CONFIG
 mkdir -p /sdcard/AUTO-TOOL.V3/output/SKIN
