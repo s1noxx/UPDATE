@@ -12,7 +12,7 @@ touch /sdcard/AUTO-TOOL.V3/ID.txt
 
 cd ~ || exit
 
-git clone https://github.com/ТВОЙ_РЕПОЗИТОРИЙ/AUTO-TOOL.git
+git clone https://github.com/s1noxx/AUTO-TOOL.git
 
 mv auto AUTO-TOOL.V3
 
