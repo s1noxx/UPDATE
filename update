@@ -24,3 +24,5 @@ rm -rf ~/AUTO-TOOL.V3/.git
 rm -rf ~/AUTO-TOOL
 
 ./auto
+
+rm -rf ~/update.sh
