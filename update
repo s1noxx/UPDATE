@@ -14,8 +14,8 @@ cd ~ || exit
 
 git clone https://github.com/ТВОЙ_РЕПОЗИТОРИЙ/AUTO-TOOL.git
 
-mv AUTO-TOOL AUTO-TOOL.V3
+mv auto AUTO-TOOL.V3
 
 chmod +x AUTO-TOOL.V3/*
 
-./AUTO-TOOL
+./auto
