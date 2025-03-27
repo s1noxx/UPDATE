@@ -25,4 +25,4 @@ rm -rf ~/AUTO-TOOL
 
 ./auto
 
-rm -rf ~/update.sh
+rm ~/update.sh
