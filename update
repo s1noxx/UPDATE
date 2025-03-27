@@ -21,5 +21,6 @@ chmod +x AUTO-TOOL.V3/*
 cd ~/AUTO-TOOL.V3
 
 rm -rf ~/AUTO-TOOL.V3/.git
+rm -rf ~/AUTO-TOOL
 
 ./auto
